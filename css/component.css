@@ -55,7 +55,9 @@ a:hover {
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background: #333;
+	background: url("http://www.redbullstudios.com/amsterdam/sites/default/files/styles/redbullstudios-header-brown/public/push_04_72dpi_rgb.jpg?itok=MNJ5VsF7");
+	background-size: auto 100%;
+	background-repeat: no-repeat;
 	border-bottom: 1px solid #fff;
 	border-right: 1px solid #fff;
 }
@@ -63,21 +65,27 @@ a:hover {
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: #333;
+	background: url("https://danacordovadesign.files.wordpress.com/2011/12/concert.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 	border-bottom: 1px solid #fff;
 }
 
 .bl-main > section:nth-child(3) {
 	top: 50%;
 	left: 0;
-	background: #333;
+	background: url("http://mezzic.com/wp-content/uploads/2011/12/img_6987.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 	border-right: 1px solid #fff;
 }
 
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: #333;
+	background: url("http://www.knr.net/images/bg_pic2.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 }
 
 
@@ -114,7 +122,7 @@ a:hover {
 
 .bl-box:hover {
 
-	background: #34495E;
+	background: #333;
 }
 
 .bl-box h2 {
@@ -200,16 +208,16 @@ column-rule: em;*/
 }
 
 .bl-main > section:first-child.bl-expand {
-	background: #EE4444;
+	background: #333;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #F98262;
+	background: #333;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #4BBE8E;
+	background: #333;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #0D8278;
+	background: #333;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
